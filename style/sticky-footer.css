@@ -45,10 +45,3 @@ body {
   margin: 20px 0;
   color: #999;
 }
-
-.navbar-inverse .navbar-brand {
-  color: #cdf;
-}
-.navbar-inverse .navbar-nav>li>a {
-  color: #cdf;
-}

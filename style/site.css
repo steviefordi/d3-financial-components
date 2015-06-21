@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .chart {
   width: 600px;
   height: 250px;
@@ -71,3 +75,127 @@
 #jumbo2 {
   padding: 20px;
 }
+
+/***************************************************/
+@media (min-width: 768px) {
+    .navbar>.container {
+        width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar>.container {
+        width: 940px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar>.container {
+        width: 1140px;
+    }
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: inherit;
+}
+
+.navbar .navbar-wrapper {
+    background-color: rgb(38,51,55);
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar>.container .navbar-brand {
+    margin-left: 0;
+    padding: 0 0 0 0;
+}
+
+ul.navbar-nav li a {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    ul.navbar-nav li~li:before {
+        content: "|";
+        line-height:  20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position: absolute;
+        left: -2px;
+        color: white;
+    }
+}
+
+ul.navbar-nav li:last-child {
+    padding-right: 15px;   
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #cdf;
+}@media (min-width: 768px) {
+    .navbar>.container {
+        width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar>.container {
+        width: 940px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar>.container {
+        width: 1140px;
+    }
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: inherit;
+}
+
+.navbar .navbar-wrapper {
+    background-color: rgb(38,51,55);
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar>.container .navbar-brand {
+    margin-left: 0;
+    padding: 0 0 0 0;
+}
+
+ul.navbar-nav li a {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    ul.navbar-nav li~li:before {
+        content: "|";
+        line-height:  20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position: absolute;
+        left: -2px;
+        color: white;
+    }
+}
+
+ul.navbar-nav li:last-child {
+    padding-right: 15px;   
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #cdf;
+}
+/*********************************************/
