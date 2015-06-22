@@ -9,19 +9,14 @@
   box-sizing: content-box;
 }
 
-.charts-container {
-  text-align: center;
-}
-
 .chart-small {
-  width: 300px;
-  height: 125px;
+  width: 380px;
+  height: 150px;
   background: white;
   border: 1px solid #ccc;
-  margin: 10px;
   position: relative;
   display: inline-block;
-  box-sizing: content-box;
+  box-sizing: border-box;
   overflow: hidden;
 }
 
@@ -96,6 +91,17 @@
 #jumbo1 a[type="button"]:hover {
     background-color: white;
     color: rgb(38,51,55);
+}
+
+/******************* #jumbo2 ********************************/
+#jumbo2 .charts-container a {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+#jumbo2 .charts-container a .caption {
+    background-color: rgb(123,159,161);
+    opacity: 0.75;
 }
 
 /***************************************************/
