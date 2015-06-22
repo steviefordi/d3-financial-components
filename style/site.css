@@ -65,11 +65,37 @@
   text-align: center;
 }
 
+/******************* #jumbo1 ********************************/
 #jumbo1 {
-  padding: 10px 20px;
+    background-color: rgb(38,51,55);
+    color: white;
+    text-align: center;
+    border-radius: 0;
 }
-#jumbo2 {
-  padding: 20px;
+
+#jumbo1 h2 {
+    font-size: 36px;
+}
+
+#jumbo1 p {
+    font-size: 12px;
+}
+
+#jumbo1 .col-sm-4 {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jumbo1 a[type="button"] {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 25px;
+}
+
+#jumbo1 a[type="button"]:hover {
+    background-color: white;
+    color: rgb(38,51,55);
 }
 
 /***************************************************/
