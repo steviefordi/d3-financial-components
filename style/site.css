@@ -9,6 +9,20 @@
   box-sizing: content-box;
 }
 
+.charts-container {
+  /* Remove horizontal space between examples */
+  line-height: 0;
+}
+
+.charts-container a:nth-child(n+6) div.chart-small {
+  border-top: 0px;   
+}
+
+.charts-container a {
+  display: inline-block;
+  margin-right: -5px;
+}
+
 .chart-small {
   width: 380px;
   height: 150px;
@@ -18,6 +32,7 @@
   display: inline-block;
   box-sizing: border-box;
   overflow: hidden;
+  line-height: 20px;
 }
 
 .chart-small .caption {
@@ -26,7 +41,7 @@
   right: 0;
   bottom: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(123, 159, 161, 0.75);
   text-align: left;
   transition: background .25s ease-in-out;
   -moz-transition: background .25s ease-in-out;
@@ -34,12 +49,12 @@
 }
 
 .chart-small:hover .caption {
-  background: rgba(0, 0, 0, 1);
+  background: rgba(38, 51, 55, 1);
 }
 
 .chart-small .caption h4 {
   color: white;
-  margin-left: 10px;
+  margin-left: 10px;  
 }
 
 .chart-small>svg {
@@ -62,67 +77,56 @@
 
 /******************* #jumbo1 ********************************/
 #jumbo1 {
-    background-color: rgb(38,51,55);
-    color: white;
-    text-align: center;
-    border-radius: 0;
+  background-color: rgb(38,51,55);
+  color: white;
+  text-align: center;
+  border-radius: 0;
 }
 
 #jumbo1 h2 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 #jumbo1 p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 #jumbo1 .col-sm-4 {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #jumbo1 a[type="button"] {
-    background-color: transparent;
-    border-color: white;
-    border-radius: 25px;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 25px;
 }
 
 #jumbo1 a[type="button"]:hover {
-    background-color: white;
-    color: rgb(38,51,55);
+  background-color: white;
+  color: rgb(38,51,55);
 }
 
-/******************* #jumbo2 ********************************/
-#jumbo2 .charts-container a {
-    display: inline-block;
-    margin-right: -4px;
-}
-
-#jumbo2 .charts-container a .caption {
-    background-color: rgb(123,159,161);
-    opacity: 0.75;
-}
-
-/***************************************************/
+/****************** navbar *********************************/
 .navbar.navbar-inverse {
-    border-color: transparent;
-    background-color: transparent;
+  border-color: transparent;
+  background-color: transparent;
 }
 
 .navbar.navbar-inverse .navbar-header, .navbar.navbar-inverse .navbar-collapse {
-    background-color: rgb(38,51,55);
+  background-color: rgb(38,51,55);
 }
  .navbar>.container .navbar-brand {
-    /* positions logo in line with body container */
-    margin-left: 0;
-    padding: 0 0 0 0;
+  /* positions logo in line with body container */
+  margin-left: 0;
+  padding: 0 0 0 0;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    padding-left: 5px;
-    padding-right: 5px;
-    color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -130,19 +134,17 @@
 }
 
 @media (min-width: 768px) {
-    ul.navbar-nav li~li:before {
-        content: "|";
-        line-height:  20px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        position: absolute;
-        left: -2px;
-        color: white;
-    }
+  ul.navbar-nav li~li:before {
+    content: "|";
+    line-height:  20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    left: -2px;
+    color: white;
+  }
 }
 
 ul.navbar-nav li:last-child {
-    padding-right: 15px;   
+  padding-right: 15px;   
 }
-
-/*********************************************/
