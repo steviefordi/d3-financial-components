@@ -38,8 +38,8 @@
             </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="components.html">COMPONENTS</a></li>
-              <li><a href="example.html">EXAMPLE</a></li>
+              <li{% if page.url == '/components.html' %} class="active"{% endif %}><a href="components.html">COMPONENTS</a></li>
+              <li{% if page.url == '/example.html' %} class="active"{% endif %}><a href="example.html">EXAMPLE</a></li>
             </ul>
           </div>
       </div>
