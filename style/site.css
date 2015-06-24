@@ -167,6 +167,16 @@
   color: rgb(123, 159, 161);
 }
 
+.navbar-inverse .navbar-nav>.active>a {
+  background-color: transparent;
+  color: rgb(123, 159, 161);
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  color: rgb(123, 159, 161);
+}
+
 @media (min-width: 768px) {
   ul.navbar-nav li~li:before {
     content: "|";
